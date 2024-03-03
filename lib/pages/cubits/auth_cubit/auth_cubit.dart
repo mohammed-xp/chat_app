@@ -43,4 +43,13 @@ class AuthCubit extends Cubit<AuthState> {
 
   }
 
+
+  @override
+  void onChange(Change<AuthState> change) {
+    // TODO: implement onChange
+    super.onChange(change);
+
+    print(change);
+  }
+
 }
